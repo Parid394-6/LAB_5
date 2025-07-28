@@ -1,4 +1,4 @@
-//Phongwirun Juntafong 663380391-2 sec.2
+//Parid Thammasorn 663380394-6 sec.2
 package sqa.test;
 
 import static org.junit.jupiter.api.Assertions.*;
