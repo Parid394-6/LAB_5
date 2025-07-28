@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="IncomeTest" project="FactoryProblem" tests="27" started="27" failures="7" errors="0" ignored="0">
+  <testsuite name="sqa.test.IncomeTest" time="0.0" displayname="IncomeTest" uniqueid="[engine:junit-jupiter]/[class:sqa.test.IncomeTest]">
+    <testsuite name="testCalculateIncome(sqa.test.IncomeTest)" time="0.0" displayname="testCalculateIncome(int, int, int, double)" parameters="int,int,int,double" uniqueid="[engine:junit-jupiter]/[class:sqa.test.IncomeTest]/[test-template:testCalculateIncome(int, int, int, double)]">
+      <testcase name="testCalculateIncome" classname="sqa.test.IncomeTest" time="0.0" dynamicTest="true" displayname="[1] P=3000, M=500, C=2000 =&gt; Expected: 85000.0" parameters="int,int,int,double" uniqueid="[engine:junit-jupiter]/[class:sqa.test.IncomeTest]/[test-template:testCalculateIncome(int, int, int, double)]/[test-template-invocation:#1]"/>
+      <testcase name="testCalculateIncome" classname="sqa.test.IncomeTest" time="0.001" dynamicTest="true" displayname="[2] P=3000, M=500, C=400 =&gt; Expected: -1.0" parameters="int,int,int,double" uniqueid="[engine:junit-jupiter]/[class:sqa.test.IncomeTest]/[test-template:testCalculateIncome(int, int, int, double)]/[test-template-invocation:#2]"/>
+      <testcase name="testCalculateIncome" classname="sqa.test.IncomeTest" time="0.008" dynamicTest="true" displayname="[3] P=3000, M=500, C=3100 =&gt; Expected: -1.0" parameters="int,int,int,double" uniqueid="[engine:junit-jupiter]/[class:sqa.test.IncomeTest]/[test-template:testCalculateIncome(int, int, int, double)]/[test-template-invocation:#3]">
+        <failure>
+          <expected>-1.0</expected>
+          <actual>107000.0</actual>
+          org.opentest4j.AssertionFailedError: expected: &lt;-1.0&gt; but was: &lt;107000.0&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:86)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:81)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1014)&#13;
+	at sqa.test.IncomeTest.testCalculateIncome(IncomeTest.java:98)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)&#13;
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)&#13;
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+        </failure>
+      </testcase>
+      <testcase name="testCalculateIncome" classname="sqa.test.IncomeTest" time="0.001" dynamicTest="true" displayname="[4] P=3000, M=299, C=2000 =&gt; Expected: -1.0" parameters="int,int,int,double" uniqueid="[engine:junit-jupiter]/[class:sqa.test.IncomeTest]/[test-template:testCalculateIncome(int, int, int, double)]/[test-template-invocation:#4]"/>
+      <testcase name="testCalculateIncome" classname="sqa.test.IncomeTest" time="0.001" dynamicTest="true" displayname="[5] P=3000, M=299, C=400 =&gt; Expected: -1.0" parameters="int,int,int,double" uniqueid="[engine:junit-jupiter]/[class:sqa.test.IncomeTest]/[test-template:testCalculateIncome(int, int, int, double)]/[test-template-invocation:#5]"/>
+      <testcase name="testCalculateIncome" classname="sqa.test.IncomeTest" time="0.002" dynamicTest="true" displayname="[6] P=3000, M=299, C=3100 =&gt; Expected: -1.0" parameters="int,int,int,double" uniqueid="[engine:junit-jupiter]/[class:sqa.test.IncomeTest]/[test-template:testCalculateIncome(int, int, int, double)]/[test-template-invocation:#6]"/>
+      <testcase name="testCalculateIncome" classname="sqa.test.IncomeTest" time="0.003" dynamicTest="true" displayname="[7] P=3000, M=801, C=2000 =&gt; Expected: -1.0" parameters="int,int,int,double" uniqueid="[engine:junit-jupiter]/[class:sqa.test.IncomeTest]/[test-template:testCalculateIncome(int, int, int, double)]/[test-template-invocation:#7]">
+        <failure>
+          <expected>-1.0</expected>
+          <actual>94030.0</actual>
+          org.opentest4j.AssertionFailedError: expected: &lt;-1.0&gt; but was: &lt;94030.0&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:86)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:81)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1014)&#13;
+	at sqa.test.IncomeTest.testCalculateIncome(IncomeTest.java:98)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)&#13;
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)&#13;
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+        </failure>
+      </testcase>
+      <testcase name="testCalculateIncome" classname="sqa.test.IncomeTest" time="0.001" dynamicTest="true" displayname="[8] P=3000, M=801, C=400 =&gt; Expected: -1.0" parameters="int,int,int,double" uniqueid="[engine:junit-jupiter]/[class:sqa.test.IncomeTest]/[test-template:testCalculateIncome(int, int, int, double)]/[test-template-invocation:#8]"/>
+      <testcase name="testCalculateIncome" classname="sqa.test.IncomeTest" time="0.002" dynamicTest="true" displayname="[9] P=3000, M=801, C=3100 =&gt; Expected: -1.0" parameters="int,int,int,double" uniqueid="[engine:junit-jupiter]/[class:sqa.test.IncomeTest]/[test-template:testCalculateIncome(int, int, int, double)]/[test-template-invocation:#9]">
+        <failure>
+          <expected>-1.0</expected>
+          <actual>116030.0</actual>
+          org.opentest4j.AssertionFailedError: expected: &lt;-1.0&gt; but was: &lt;116030.0&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:86)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:81)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1014)&#13;
+	at sqa.test.IncomeTest.testCalculateIncome(IncomeTest.java:98)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)&#13;
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)&#13;
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+        </failure>
+      </testcase>
+      <testcase name="testCalculateIncome" classname="sqa.test.IncomeTest" time="0.001" dynamicTest="true" displayname="[10] P=999, M=500, C=2000 =&gt; Expected: -1.0" parameters="int,int,int,double" uniqueid="[engine:junit-jupiter]/[class:sqa.test.IncomeTest]/[test-template:testCalculateIncome(int, int, int, double)]/[test-template-invocation:#10]"/>
+      <testcase name="testCalculateIncome" classname="sqa.test.IncomeTest" time="0.001" dynamicTest="true" displayname="[11] P=999, M=500, C=400 =&gt; Expected: -1.0" parameters="int,int,int,double" uniqueid="[engine:junit-jupiter]/[class:sqa.test.IncomeTest]/[test-template:testCalculateIncome(int, int, int, double)]/[test-template-invocation:#11]"/>
+      <testcase name="testCalculateIncome" classname="sqa.test.IncomeTest" time="0.001" dynamicTest="true" displayname="[12] P=999, M=500, C=3100 =&gt; Expected: -1.0" parameters="int,int,int,double" uniqueid="[engine:junit-jupiter]/[class:sqa.test.IncomeTest]/[test-template:testCalculateIncome(int, int, int, double)]/[test-template-invocation:#12]"/>
+      <testcase name="testCalculateIncome" classname="sqa.test.IncomeTest" time="0.001" dynamicTest="true" displayname="[13] P=999, M=299, C=2000 =&gt; Expected: -1.0" parameters="int,int,int,double" uniqueid="[engine:junit-jupiter]/[class:sqa.test.IncomeTest]/[test-template:testCalculateIncome(int, int, int, double)]/[test-template-invocation:#13]"/>
+      <testcase name="testCalculateIncome" classname="sqa.test.IncomeTest" time="0.0" dynamicTest="true" displayname="[14] P=999, M=299, C=400 =&gt; Expected: -1.0" parameters="int,int,int,double" uniqueid="[engine:junit-jupiter]/[class:sqa.test.IncomeTest]/[test-template:testCalculateIncome(int, int, int, double)]/[test-template-invocation:#14]"/>
+      <testcase name="testCalculateIncome" classname="sqa.test.IncomeTest" time="0.0" dynamicTest="true" displayname="[15] P=999, M=299, C=3100 =&gt; Expected: -1.0" parameters="int,int,int,double" uniqueid="[engine:junit-jupiter]/[class:sqa.test.IncomeTest]/[test-template:testCalculateIncome(int, int, int, double)]/[test-template-invocation:#15]"/>
+      <testcase name="testCalculateIncome" classname="sqa.test.IncomeTest" time="0.001" dynamicTest="true" displayname="[16] P=999, M=801, C=2000 =&gt; Expected: -1.0" parameters="int,int,int,double" uniqueid="[engine:junit-jupiter]/[class:sqa.test.IncomeTest]/[test-template:testCalculateIncome(int, int, int, double)]/[test-template-invocation:#16]"/>
+      <testcase name="testCalculateIncome" classname="sqa.test.IncomeTest" time="0.0" dynamicTest="true" displayname="[17] P=999, M=801, C=400 =&gt; Expected: -1.0" parameters="int,int,int,double" uniqueid="[engine:junit-jupiter]/[class:sqa.test.IncomeTest]/[test-template:testCalculateIncome(int, int, int, double)]/[test-template-invocation:#17]"/>
+      <testcase name="testCalculateIncome" classname="sqa.test.IncomeTest" time="0.001" dynamicTest="true" displayname="[18] P=999, M=801, C=3100 =&gt; Expected: -1.0" parameters="int,int,int,double" uniqueid="[engine:junit-jupiter]/[class:sqa.test.IncomeTest]/[test-template:testCalculateIncome(int, int, int, double)]/[test-template-invocation:#18]"/>
+      <testcase name="testCalculateIncome" classname="sqa.test.IncomeTest" time="0.002" dynamicTest="true" displayname="[19] P=5001, M=500, C=2000 =&gt; Expected: -1.0" parameters="int,int,int,double" uniqueid="[engine:junit-jupiter]/[class:sqa.test.IncomeTest]/[test-template:testCalculateIncome(int, int, int, double)]/[test-template-invocation:#19]">
+        <failure>
+          <expected>-1.0</expected>
+          <actual>105010.0</actual>
+          org.opentest4j.AssertionFailedError: expected: &lt;-1.0&gt; but was: &lt;105010.0&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:86)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:81)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1014)&#13;
+	at sqa.test.IncomeTest.testCalculateIncome(IncomeTest.java:98)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)&#13;
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)&#13;
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+        </failure>
+      </testcase>
+      <testcase name="testCalculateIncome" classname="sqa.test.IncomeTest" time="0.001" dynamicTest="true" displayname="[20] P=5001, M=500, C=400 =&gt; Expected: -1.0" parameters="int,int,int,double" uniqueid="[engine:junit-jupiter]/[class:sqa.test.IncomeTest]/[test-template:testCalculateIncome(int, int, int, double)]/[test-template-invocation:#20]"/>
+      <testcase name="testCalculateIncome" classname="sqa.test.IncomeTest" time="0.002" dynamicTest="true" displayname="[21] P=5001, M=500, C=3100 =&gt; Expected: -1.0" parameters="int,int,int,double" uniqueid="[engine:junit-jupiter]/[class:sqa.test.IncomeTest]/[test-template:testCalculateIncome(int, int, int, double)]/[test-template-invocation:#21]">
+        <failure>
+          <expected>-1.0</expected>
+          <actual>127010.0</actual>
+          org.opentest4j.AssertionFailedError: expected: &lt;-1.0&gt; but was: &lt;127010.0&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:86)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:81)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1014)&#13;
+	at sqa.test.IncomeTest.testCalculateIncome(IncomeTest.java:98)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)&#13;
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)&#13;
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+        </failure>
+      </testcase>
+      <testcase name="testCalculateIncome" classname="sqa.test.IncomeTest" time="0.001" dynamicTest="true" displayname="[22] P=5001, M=299, C=2000 =&gt; Expected: -1.0" parameters="int,int,int,double" uniqueid="[engine:junit-jupiter]/[class:sqa.test.IncomeTest]/[test-template:testCalculateIncome(int, int, int, double)]/[test-template-invocation:#22]"/>
+      <testcase name="testCalculateIncome" classname="sqa.test.IncomeTest" time="0.001" dynamicTest="true" displayname="[23] P=5001, M=299, C=400 =&gt; Expected: -1.0" parameters="int,int,int,double" uniqueid="[engine:junit-jupiter]/[class:sqa.test.IncomeTest]/[test-template:testCalculateIncome(int, int, int, double)]/[test-template-invocation:#23]"/>
+      <testcase name="testCalculateIncome" classname="sqa.test.IncomeTest" time="0.001" dynamicTest="true" displayname="[24] P=5001, M=299, C=3100 =&gt; Expected: -1.0" parameters="int,int,int,double" uniqueid="[engine:junit-jupiter]/[class:sqa.test.IncomeTest]/[test-template:testCalculateIncome(int, int, int, double)]/[test-template-invocation:#24]"/>
+      <testcase name="testCalculateIncome" classname="sqa.test.IncomeTest" time="0.001" dynamicTest="true" displayname="[25] P=5001, M=801, C=2000 =&gt; Expected: -1.0" parameters="int,int,int,double" uniqueid="[engine:junit-jupiter]/[class:sqa.test.IncomeTest]/[test-template:testCalculateIncome(int, int, int, double)]/[test-template-invocation:#25]">
+        <failure>
+          <expected>-1.0</expected>
+          <actual>114040.0</actual>
+          org.opentest4j.AssertionFailedError: expected: &lt;-1.0&gt; but was: &lt;114040.0&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:86)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:81)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1014)&#13;
+	at sqa.test.IncomeTest.testCalculateIncome(IncomeTest.java:98)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)&#13;
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)&#13;
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+        </failure>
+      </testcase>
+      <testcase name="testCalculateIncome" classname="sqa.test.IncomeTest" time="0.0" dynamicTest="true" displayname="[26] P=5001, M=801, C=400 =&gt; Expected: -1.0" parameters="int,int,int,double" uniqueid="[engine:junit-jupiter]/[class:sqa.test.IncomeTest]/[test-template:testCalculateIncome(int, int, int, double)]/[test-template-invocation:#26]"/>
+      <testcase name="testCalculateIncome" classname="sqa.test.IncomeTest" time="0.001" dynamicTest="true" displayname="[27] P=5001, M=801, C=3100 =&gt; Expected: -1.0" parameters="int,int,int,double" uniqueid="[engine:junit-jupiter]/[class:sqa.test.IncomeTest]/[test-template:testCalculateIncome(int, int, int, double)]/[test-template-invocation:#27]">
+        <failure>
+          <expected>-1.0</expected>
+          <actual>136040.0</actual>
+          org.opentest4j.AssertionFailedError: expected: &lt;-1.0&gt; but was: &lt;136040.0&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:86)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:81)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1014)&#13;
+	at sqa.test.IncomeTest.testCalculateIncome(IncomeTest.java:98)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)&#13;
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)&#13;
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+        </failure>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>
